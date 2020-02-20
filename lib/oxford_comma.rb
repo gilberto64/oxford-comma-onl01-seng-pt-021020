@@ -10,7 +10,7 @@ end
 
 def oxford_comma(array2)
   if array2.length == 2
-    array2[2].push " and "
+    array2[-2] << " and "
     array2.join
   elsif array2.length == 1
   	array2.join
