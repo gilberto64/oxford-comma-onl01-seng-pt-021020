@@ -20,6 +20,7 @@ def oxford_comma(array2)
   end
 end
 
+
 # def oxford_comma(array2)
 #  if array2.size == 1
 #    array2.join
