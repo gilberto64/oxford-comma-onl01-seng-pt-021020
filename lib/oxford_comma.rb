@@ -25,6 +25,10 @@ def oxford_comma(array2)
     array2.join
   elseif array2.size == 2 
     array2.join << (" and ")
+  
+  
+  
+  
   elseif array2.size > 2 
     array2[-1] 
   
