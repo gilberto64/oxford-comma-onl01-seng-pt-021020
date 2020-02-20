@@ -20,6 +20,17 @@ def oxford_comma(array2)
   end
 end
 
+# def oxford_comma(array2)
+#  if array2.length == 2
+#  array2[-2] << " and "
+#  array2.join
+#  elsif array2.length == 1
+#  	array2.join
+#  elsif array2.length > 2
+#    array2[-1].prepend "and "
+#	  array2.join(", ")
+# end
+# end
 
 # def oxford_comma(array2)
 #  if array2.size == 1
