@@ -28,6 +28,7 @@ def oxford_comma(array2)
   elsif array2.length > 2
     array2[-1].prepend "and "
 	array2.join(", ")
+  end
 end
 
   
